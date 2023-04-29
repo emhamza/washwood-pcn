@@ -14,22 +14,22 @@
     <header>
         <div class="washwood-header">
             <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg" id="navigation">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Menu</a>
+                  <a class="text-white navbar-brand" href="#">Menu</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link text-white" href="#">Link</a>
                       </li>
                       <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Dropdown
                         </a>
                         <ul class="dropdown-menu">
@@ -39,13 +39,10 @@
                           <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>
                     </ul>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <button class="btn btn-outline-light" type="submit">Search</button>
                     </form>
                   </div>
                 </div>
@@ -53,32 +50,72 @@
         </div>
     </header>
     <main>
-        <div class="card">
-            <div class="card-body">
-              <h2 class="card-title h1">Welcome to the Washwood Primary Care Network</h2>
-              <p id="card-text">A collaboration of two GP practices serving approximately 20,600 patients, from the Maldon area.</p>
-              <a href="#" class="btn" id="card-button">
-                Learn About PCN
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-square mx-2" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                </svg>
-              </a>
-            </div>
-          </div>
-          <section>
-            <div class="card my-3">
-                <img src="./pictures/card-pic-1.png" class="card-img-top mt-3" alt="...">
-                <h2 class="card-title h1">Fall Proof: Preventing falls and staying well</h2>
+        <section class="feature-card">
+            <div class="card">
                 <div class="card-body">
-                  <p id="card-text">A collaboration of two GP practices serving approximately 20,600 patients, from the Maldon area.</p>
-                  <a href="#" class="btn" id="card-button">
+                    <h2 class="card-title h1">Welcome to the Washwood Primary Care Network</h2>
+                    <p id="card-text">A collaboration of two GP practices serving approximately 20,600 patients, from the Maldon area.</p>
+                    <a href="#" class="btn" id="card-button">
                     Learn About PCN
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-arrow-right-square mx-2" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4.5 5.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                     </svg>
-                  </a>                </div>
-              </div>
-          </section>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="all-cards"></section>
     </main>
+    <section id="help-section" class="mb-5">
+        <h2 class="help-title">How can we help you?</h2>
+        <div class="d-grid gap-4">
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+            <button id="help-button" class="btn" type="button">Button
+                <img src="pictures/arrow-2.png" class="card-img-top" alt="arrow" id="arrow-2-icon">
+            </button>
+        </div>
+    </section>
+    <div class="mb-5" style="border: 1px dotted #abb8c3; border-style: dotted; border-width: 0 0 10px 0; line-height: 0;">
+        &nbsp;
+    </div>
+    <section>
+        <h2 class="help-title">Latest News</h2>
+    </section>
+    <hr>
+    <section>
+        <div class="footer-1">
+            <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
+            <img class="NHS-logo" href="#" src="pictures/National_Health_Service_(England)_logo.svg.png" alt="National_Health_Service_(England)_logo">
+        </div>
+        <div class="link-area">
+            <a href="#">Contact us<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">GP practice<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">About us<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">Accessobility<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer-2">
+        <div class="link-area">
+            <a href="#">Privacy</a>
+            <a href="#">Terms and condition</a>
+        </div>
+        <p class="mt-5">Copyright © 2023 These gose the sample text as per the Copyright requirements</p>
+    </footer>
+    <script src="app.js"></script>
 </body>
 </html>

@@ -1,32 +1,140 @@
-.washwood-logo{
-    height: 150px;
-    width: 150px;
+main {
+  background: #e8edee;
 }
 
-.washwood-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5%;
-
+.washwood-logo {
+  height: 150px;
+  width: 150px;
 }
 
-.card{
-    width: 90%;
-    margin-left: 5%;
-    padding: 3%;
-    box-shadow: 42px 28px 47px 0px rgba(0,0,0,0.1);
+.washwood-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
 }
 
-#card-button{
-    font-size: 2rem;
-    background-color: #fae100;
-    height: 5rem;
-    padding: 2%;
+.custom-toggler {
+  background-color: #fff;
 }
-#card-text{
-    font-size: 1.5rem;
-    margin-top: 5%;
-    margin-bottom: 5%;
 
+#navigation {
+  background-color: #00786c;
+}
+
+.feature-card {
+  background-image: url(pictures/main-pics.png);
+  background-repeat: no-repeat;
+  padding-top: 35%;
+}
+
+#all-cards {
+  padding-bottom: 10%;
+}
+
+#content-cards {
+  width: 90%;
+  margin-left: 5%;
+  padding: 3%;
+  box-shadow: 42px 28px 47px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: slide-in 2s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+#card-button {
+  font-size: 2rem;
+  background-color: #fae100;
+  height: 5rem;
+  padding: 2%;
+}
+
+#card-text {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#arrow-icon {
+  width: 35px;
+}
+
+/* help section styling */
+
+#help-button {
+  text-align: start;
+  width: 84%;
+  margin-left: 8%;
+  margin-right: 8%;
+  border: none;
+  border-radius: 0%;
+  background-color: #00786c;
+  color: white;
+  font-size: 2rem;
+}
+
+#help-button:hover {
+  background-color: #fae100;
+  transform: translateX(5px);
+}
+
+#arrow-2-icon {
+  width: 35px;
+  margin-left: 77%;
+}
+
+.help-title {
+  padding-left: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/* footer section */
+
+.footer-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+
+.NHS-logo {
+  width: 25%;
+  height: 20%;
+  margin-top: 5%;
+}
+
+.link-area {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link-area a {
+  flex-basis: 40%;
+  font-size: 1rem;
+}
+
+#link-icon {
+  width: 15px;
+  opacity: 0.5;
+  margin-left: 3%;
+}
+
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
 }
