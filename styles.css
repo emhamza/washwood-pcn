@@ -1,0 +1,32 @@
+.washwood-logo{
+    height: 150px;
+    width: 150px;
+}
+
+.washwood-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+
+}
+
+.card{
+    width: 90%;
+    margin-left: 5%;
+    padding: 3%;
+    box-shadow: 42px 28px 47px 0px rgba(0,0,0,0.1);
+}
+
+#card-button{
+    font-size: 2rem;
+    background-color: #fae100;
+    height: 5rem;
+    padding: 2%;
+}
+#card-text{
+    font-size: 1.5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
