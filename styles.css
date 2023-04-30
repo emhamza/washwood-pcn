@@ -149,10 +149,51 @@ main {
 .desk-header {
   display: flex;
 }
+/* Slider styling gose there */
+.slider {
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+  margin: 2rem;
+  border: 10px solid #00786c;
+}
 
+.slider-container {
+  position: absolute;
+  height: 100%;
+  width: 400%;
+  left: 0;
+  transition: left 0.5s ease-in-out;
+}
+
+.slider-container img {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.slider-control {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  margin-right: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-control.active {
+  background-color: white;
+}
 
 /* media quries gose there */
-
 @media (min-width: 768px) {
   .feature-card {
     background-image: url(pictures/desk-bg.avif);

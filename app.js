@@ -3,7 +3,7 @@ const cardData = [
     id: 1,
     image: './pictures/card-pic-1.png',
     title: 'Mental health support',
-    description: 'A collaboration of two GP practices serving approximately 20,600 patients, from the Maldon area.',
+    description: 'A collaboration of nine GP practices serving approximately 55000 patients in Washwood Heath area of Birmingham.',
     btn: 'Mental Health support',
     arrow: './pictures/arrow.png',
   },
