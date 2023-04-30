@@ -1,3 +1,4 @@
+
 main {
   background: #e8edee;
 }
@@ -27,6 +28,12 @@ main {
   background-image: url(pictures/main-pics.png);
   background-repeat: no-repeat;
   padding-top: 35%;
+}
+
+.card {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #all-cards {
@@ -137,4 +144,95 @@ main {
   flex-direction: column;
   justify-content: space-between;
   padding: 5%;
+}
+
+.desk-header {
+  display: flex;
+}
+
+
+/* media quries gose there */
+
+@media (min-width: 768px) {
+  .feature-card {
+    background-image: url(pictures/desk-bg.avif);
+    background-repeat: no-repeat;
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .card {
+    width: 60%;
+  }
+
+  .washwood-header {
+    display: none;
+  }
+
+  .NHS-logo {
+    width: 20%;
+  }
+
+  .form-control {
+    height: 30%;
+  }
+
+  .search-bar-logo {
+    display: flex;
+    margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .washwood-logo {
+    margin-left: 5%;
+  }
+
+  #all-cards {
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .d-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-gap: 1rem;
+  }
+
+  #help-section {
+    justify-content: center;
+  }
+
+  #help-button {
+    text-align: start;
+    width: 80%;
+  }
+
+  #help-button:hover {
+    background-color: #fae100;
+    transform: translateX(5px);
+  }
+
+  #arrow-2-icon {
+    width: 25px;
+    margin-left: 60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #arrow-2-icon {
+    margin-left: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .desk-header,
+  .desk-nav,
+  .desk-nav-links {
+    display: none;
+  }
 }

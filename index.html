@@ -11,42 +11,99 @@
     <title>washwood</title>
 </head>
 <body>
+    <div class="desk-nav-links mx-5">
+        <ul class="nav nav-underline justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+    </div>
     <header>
-        <div class="washwood-header">
+        <div class="desk-header">
             <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
-            <nav class="navbar navbar-expand-lg" id="navigation">
-                <div class="container-fluid">
-                  <a class="text-white navbar-brand" href="#">Menu</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-light" type="submit">Search</button>
-                    </form>
-                  </div>
+            <div class="search-bar-logo">
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <img class="NHS-logo" href="#" src="pictures/National_Health_Service_(England)_logo.svg.png" alt="National_Health_Service_(England)_logo">
+            </div>
+        </div>
+        <div class="desk-nav">
+            <nav id="navigation" class="navbar">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <button class="btn btn-sm btn-outline-light" type="button">Smaller button</button>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <button class="btn btn-sm btn-outline-light" type="button">Smaller button</button>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <button class="btn btn-sm btn-outline-light" type="button">Smaller button</button>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <button class="btn btn-sm btn-outline-light" type="button">Smaller button</button>
+                    </a>
                 </div>
-              </nav>
+            </nav>
+        </div>
+        <div  class="washwood-header">
+            <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
+                <nav class="navbar navbar-dark" id="navigation">
+                    <div class="container-fluid">
+                     <h5 class="text-white mx-2">Menu</h5>   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div  class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Washwood</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
         </div>
     </header>
     <main>
