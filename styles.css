@@ -89,7 +89,7 @@ main {
   border-radius: 0%;
   background-color: #00786c;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 #help-button:hover {
@@ -99,7 +99,7 @@ main {
 
 #arrow-2-icon {
   width: 35px;
-  margin-left: 77%;
+  margin-left: 61%;
 }
 
 .help-title {
@@ -193,6 +193,10 @@ main {
   background-color: white;
 }
 
+#nav-btn{
+  border: none;
+}
+
 /* media quries gose there */
 @media (min-width: 768px) {
   .feature-card {
@@ -266,7 +270,7 @@ main {
 
 @media (min-width: 1200px) {
   #arrow-2-icon {
-    margin-left: 70%;
+    margin-left: 14rem;
   }
 }
 
