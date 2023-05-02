@@ -268,7 +268,11 @@ main {
   #card-button {
     height: 3rem;
   }
-
+  .NHS-logo {
+    width: 30%;
+    height: 40%;
+    margin-top: 5%;
+  }
 }
 
 @media (min-width: 1000px) {
