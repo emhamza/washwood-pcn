@@ -286,6 +286,7 @@ main {
   #card-button {
     font-size: 1.3rem;
     background-color: #fae100;
+    justify-content: center;
   }
   #content-cards {
     width: 100%;
