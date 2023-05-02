@@ -85,21 +85,18 @@ main {
   width: 84%;
   margin-left: 8%;
   margin-right: 8%;
-  border: none;
-  border-radius: 0%;
+  border: 1px dotted #fae100;
+  border-radius: 10px;
   background-color: #00786c;
   color: white;
   font-size: 1.5rem;
+  box-shadow: 42px 28px 47px 0 rgba(0, 0, 0, 0.1);
+
 }
 
 #help-button:hover {
   background-color: #fae100;
   transform: translateX(5px);
-}
-
-#arrow-2-icon {
-  width: 35px;
-  margin-left: 61%;
 }
 
 .help-title {
@@ -234,13 +231,6 @@ main {
     margin-left: 5%;
   }
 
-  #all-cards {
-    padding-bottom: 10%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-
   .d-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -253,24 +243,63 @@ main {
   }
 
   #help-button {
-    text-align: start;
     width: 80%;
-  }
-
-  #help-button:hover {
-    background-color: #fae100;
-    transform: translateX(5px);
-  }
-
-  #arrow-2-icon {
-    width: 25px;
-    margin-left: 60%;
   }
 }
 
 @media (min-width: 1200px) {
-  #arrow-2-icon {
-    margin-left: 14rem;
+
+  #content-cards {
+    width: 50%;
+    height: 30%;
+  }
+  .card-img {
+    width: 30%;
+    height: 40%;
+  }
+  #card-text,
+  #card-button {
+    font-size: 1rem;
+  }
+  #card-text {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  #card-button {
+    height: 3rem;
+  }
+
+}
+
+@media (min-width: 1000px) {
+  #all-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    width: 90%;
+    height: 50%;
+  }
+  #card-button {
+    font-size: 1.3rem;
+    background-color: #fae100;
+  }
+  #content-cards {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    padding: 3%;
+    box-shadow: 42px 28px 47px 0 rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: slide-in 2s forwards;
+  }
+  .card-img {
+    width: 30%;
+    height: 40%;
+  }
+  #card-text {
+    font-size: 1.2rem;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
 
