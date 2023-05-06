@@ -266,7 +266,8 @@ main {
     margin-bottom: 2%;
   }
   #card-button {
-    height: 3rem;
+    height: 4rem;
+    padding: 2%;
   }
   .NHS-logo {
     width: 30%;
@@ -287,6 +288,8 @@ main {
     font-size: 1.3rem;
     background-color: #fae100;
     justify-content: center;
+    height: 4rem;
+    padding: 2%;
   }
   #content-cards {
     width: 100%;
