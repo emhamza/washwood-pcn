@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>washwood</title>
+</head>
+<body>
+    <div class="desk-nav-links mx-5">
+        <ul class="nav nav-underline justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <header>
+        <div class="desk-header">
+            <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
+            <div class="search-bar-logo">
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <img class="NHS-logo" href="#" src="pictures/National_Health_Service_(England)_logo.svg.png" alt="National_Health_Service_(England)_logo">
+            </div>
+        </div>
+        <div class="desk-nav">
+            <nav id="navigation" class="navbar">
+                <div>
+                    <a class="navbar-brand" href="index.html">
+                        <button  id="nav-btn" class="btn btn-lg btn-outline-light" type="button">Home ></button>
+                    </a>
+                    <a class="navbar-brand" href="https://www.birmingham.gov.uk/info/50279/food_revolution">
+                        <button id="nav-btn" class="btn btn-lg btn-outline-light" type="button">Food revolution ></button>
+                    </a>
+                    <a class="navbar-brand" href="./services.html">
+                        <button id="nav-btn" class="btn btn-lg btn-outline-light" type="button">Services ></button>
+                    </a>
+                    <a class="navbar-brand" href="./aboutus.html">
+                        <button id="nav-btn" class="btn btn-lg btn-outline-light" type="button">About Us ></button>
+                    </a>
+                </div>
+            </nav>
+        </div>
+        <div  class="washwood-header">
+            <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
+                <nav class="navbar navbar-dark" id="navigation">
+                    <div class="container-fluid">
+                     <h5 class="text-white mx-2">Menu</h5>   
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div  class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Washwood</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+        </div>
+    </header>
+    <!-- Unique about section gose there -->
+    <nav class="navbar about-nav2">
+        <div id="about-links">
+          <a href="index.html">
+            <span class="navbar-brand text-white">Home /</span>
+          </a>
+          <a href="./aboutus.html">
+            <span class="navbar-brand text-white">About /</span>
+          </a>
+          <a href="./about.html">
+            <span class="navbar-brand text-white">What we do </span>
+          </a>
+        </div>
+        </div>
+        <div class="container-fluid">
+            <h1 id="nav-heading" class="navbar-brand">What we do</h1>
+            <h5 class="nav-text">Find out what a Primary Care Network (PCN) is, and what it does for your community.</h5>
+        </div>
+      </nav>
+        <main>
+            <div class="body-text">
+                <h2>Comprehensive Primary Care Services</h2>
+                <P>
+                    We provide a full range of primary care services, including preventive care, acute illness and injury care, chronic disease management, and more. Our providers work with patients to develop personalized care plans that address their unique needs.
+                </P>
+                <h2>Preventive Care</h2>
+                <p>
+                    We believe in the importance of preventive care to maintain optimal health and prevent future health problems. We offer routine check-ups, immunizations, screenings, and other preventive services to help our patients stay healthy.
+                </p>
+                <h2>Chronic Disease Management</h2>
+                <p>
+                    Our providers have expertise in managing chronic conditions, such as diabetes, hypertension, and heart disease. We work with patients to develop personalized care plans to manage their conditions and improve their quality of life.
+                </p>
+                <h2>Behavioural Health Services</h2>
+                <p>
+                    We understand the importance of addressing the whole person, including their mental and emotional well-being. We offer behavioural health services, including counselling and medication management, to support our patients' mental and emotional health.
+                </p>
+                <h2>Care Coordination and Management</h2>
+                <p>
+                    We work closely with patients to coordinate their care across multiple healthcare providers and settings. Our care coordination and management services help reduce healthcare costs and improve patient outcomes.
+                </p>
+                <h2>Patient Education and Resources</h2>
+                <p>
+                    We believe in empowering our patients to take an active role in their health.
+                </p>
+                <div class="social-bar">
+                    <h5 class="">Contact us on:</h5>
+                    <ul>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                          </svg></a></li>
+                        <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                          </svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slack" viewBox="0 0 16 16">
+                            <path d="M3.362 10.11c0 .926-.756 1.681-1.681 1.681S0 11.036 0 10.111C0 9.186.756 8.43 1.68 8.43h1.682v1.68zm.846 0c0-.924.756-1.68 1.681-1.68s1.681.756 1.681 1.68v4.21c0 .924-.756 1.68-1.68 1.68a1.685 1.685 0 0 1-1.682-1.68v-4.21zM5.89 3.362c-.926 0-1.682-.756-1.682-1.681S4.964 0 5.89 0s1.68.756 1.68 1.68v1.682H5.89zm0 .846c.924 0 1.68.756 1.68 1.681S6.814 7.57 5.89 7.57H1.68C.757 7.57 0 6.814 0 5.89c0-.926.756-1.682 1.68-1.682h4.21zm6.749 1.682c0-.926.755-1.682 1.68-1.682.925 0 1.681.756 1.681 1.681s-.756 1.681-1.68 1.681h-1.681V5.89zm-.848 0c0 .924-.755 1.68-1.68 1.68A1.685 1.685 0 0 1 8.43 5.89V1.68C8.43.757 9.186 0 10.11 0c.926 0 1.681.756 1.681 1.68v4.21zm-1.681 6.748c.926 0 1.682.756 1.682 1.681S11.036 16 10.11 16s-1.681-.756-1.681-1.68v-1.682h1.68zm0-.847c-.924 0-1.68-.755-1.68-1.68 0-.925.756-1.681 1.68-1.681h4.21c.924 0 1.68.756 1.68 1.68 0 .926-.756 1.681-1.68 1.681h-4.21z"/>
+                          </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+      <!-- ---------------------- -->
+    <section>
+        <div class="footer-1">
+            <img class="washwood-logo" href="#" src="pictures/washwood-logo.png" alt="washwood-logo">
+            <img class="NHS-logo" href="#" src="pictures/National_Health_Service_(England)_logo.svg.png" alt="National_Health_Service_(England)_logo">
+        </div>
+        <div class="link-area">
+            <a href="#">Contact us<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">GP practice<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">About us<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+            <a href="#">Accessobility<img src="./pictures/arrow.png" class="card-img-top" alt="arrow" id="link-icon"></a>
+        </div>
+    </section>
+    <hr>
+    <footer class="footer-2">
+        <div class="link-area">
+            <a href="#">Privacy</a>
+            <a href="#">Terms and condition</a>
+        </div>
+        <p class="mt-5">Copyright © 2023 These gose the sample text as per the Copyright requirements</p>
+    </footer>
+    <script src="app.js"></script>
+    <script src="slider.js"></script>
+
+</body>
+</html>

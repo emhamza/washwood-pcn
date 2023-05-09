@@ -1,0 +1,45 @@
+.about-nav2 {
+    background-color: #005EB8;
+}
+#about-links{
+    padding: 0.25rem 2rem;
+}
+#nav-heading{
+    color: white;
+    font-size: 1.75rem;
+    padding: 0.25rem 1.5rem;
+}
+.nav-text{
+    color: white;
+    padding: 0.25rem 1.5rem;
+}
+.body-text{
+    padding: 3rem 3rem;
+}
+.social-bar{
+    background-color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: -8px -14px 38px -3px rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    margin-top: 5rem;
+}
+.social-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.8rem;
+}
+
+/* media quries gose there */
+
+@media(min-width: 768px){
+    .about-nav2 {
+        background-color: #005EB8;
+    }
+}
