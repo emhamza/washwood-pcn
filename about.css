@@ -1,5 +1,5 @@
 .about-nav2 {
-    background-color: #00786c;
+    background-color: #005EB8;
 }
 #about-links{
     padding: 0.25rem 2rem;
@@ -40,6 +40,6 @@
 
 @media(min-width: 768px){
     .about-nav2 {
-        background-color: #01534b;
+        background-color: #005EB8;
     }
 }
